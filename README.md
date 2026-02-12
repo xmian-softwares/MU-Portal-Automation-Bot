@@ -1,23 +1,23 @@
 # MU-Portal-Automation-Bot
 
-A Telegram bot that allows students of **Mizan-Tepi University eStudent Portal** to log in and access their academic transcript directly from Telegram.
+A Telegram bot that allows students of **Mekelle University eStudent Portal** to log in and access their academic transcript directly from Telegram.
 
 The bot automates authentication to the university portal, maintains a session, scrapes academic data, calculates GPA, and returns formatted results to the user.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 Secure login using Student ID and Password  
-- 📄 View Academic Transcript  
-- 📊 Automatic GPA Calculation  
-- 🧠 Session-based authentication  
-- ✉️ Handles long Telegram messages safely  
-- 🤖 Interactive menu system  
+- Secure login using Student ID and Password  
+- View Academic Transcript  
+- Automatic GPA Calculation  
+- Session-based authentication  
+- Handles long Telegram messages safely  
+- Interactive menu system  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - `python-telegram-bot` (v20+)
@@ -27,7 +27,7 @@ The bot automates authentication to the university portal, maintains a session, 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -37,9 +37,9 @@ The bot automates authentication to the university portal, maintains a session, 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-### 1️⃣ Authentication Process
+### 1. Authentication Process
 
 1. User sends `/start`
 2. Bot asks for:
@@ -54,7 +54,7 @@ The bot automates authentication to the university portal, maintains a session, 
 
 ---
 
-### 2️⃣ Transcript Retrieval
+### 2. Transcript Retrieval
 
 After successful login, the bot accesses:
 
@@ -78,12 +78,12 @@ The bot then:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/mu-portal-bot.git
+git clone https://github.com/xmian-softwares/MU-Portal-Automation-Bot.git
 cd mu-portal-bot
 ```
 
@@ -95,7 +95,7 @@ pip install python-telegram-bot requests beautifulsoup4
 
 ---
 
-## 🔑 Configuration
+## Configuration
 
 Open `mu_portal_bot.py` and replace:
 
@@ -113,7 +113,7 @@ You can get a token from **@BotFather** on Telegram.
 
 ---
 
-## ▶️ Run the Bot
+## Run the Bot
 
 ```bash
 python mu_portal_bot.py
@@ -123,7 +123,7 @@ The bot will start polling Telegram for updates.
 
 ---
 
-## 💬 Usage
+## Usage
 
 ### Start Command
 
@@ -143,7 +143,7 @@ The bot will start polling Telegram for updates.
 
 ---
 
-## 📊 GPA Calculation
+## GPA Calculation
 
 ```
 GPA = Total Points ÷ Total ECTS
@@ -158,7 +158,7 @@ The system:
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - Profile scraping not implemented  
 - Assessment results not implemented  
@@ -168,7 +168,7 @@ The system:
 
 ---
 
-## 🔐 Security Notice
+## Security Notice
 
 - Uses session-based authentication  
 - Does **NOT** permanently store credentials  
@@ -182,19 +182,8 @@ For production deployment:
 
 ---
 
-## 🌍 Deployment Options
 
-You can deploy on:
-
-- Railway  
-- Render  
-- PythonAnywhere  
-- VPS (AWS, DigitalOcean, etc.)  
-- Heroku  
-
----
-
-## 🔮 Future Improvements
+## Future Improvements
 
 - Implement Profile scraping  
 - Implement Assessment Results scraping  
@@ -206,9 +195,9 @@ You can deploy on:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Malachi**
+**Milkias Amanuel Arefaine**
 
 ---
 
