@@ -201,6 +201,6 @@ For production deployment:
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes only.
