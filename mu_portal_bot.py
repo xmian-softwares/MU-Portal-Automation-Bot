@@ -184,7 +184,7 @@ async def send_long_message(update: Update, text: str):
         )
 
 def main():
-    application = ApplicationBuilder().token("REPLACE THIS WITH YOUR TELEGRAM BOT TOKEN").build()
+    application = ApplicationBuilder().token("8463404909:AAFO9ldxUzR6dsjfIVnsm6N8D_TclAnlQec").build()
     #You Need to Put in Your Telegram Bot Token For This to Work!!
 
     application.add_handler(CommandHandler("start", start))
@@ -196,3 +196,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
